@@ -29,7 +29,7 @@ html, body {
 
 header {
     width: 100%;
-    height: 330px;
+    height: 230px;
 
     background-color: #592418;
     background-image: url(/image/barbecue-1.jpg);
@@ -41,6 +41,7 @@ header {
 header img {
     width: 150px;
 }
+
 .nav-header {
     display: flex;
     justify-content: center;
@@ -67,6 +68,17 @@ header img {
     color: #F22E2E;
     text-shadow: 1px 1px 2px black;
 }
+.titulo-nav {
+    text-align: center;
+    text-shadow: 1px 2px 3px #F22E2E;
+
+    font-family: Damion;
+    font-size: 3.5rem;
+    font-weight: bolder;
+
+    color: black;
+
+}
 
 
 /*/ MAIN /  /////////////////////////////////////////////////////////////////////////////////*/
@@ -74,54 +86,37 @@ header img {
 
 main {
     width: 100%;
-    height: 500px;
+    height: 1300;
 
     background-color: #592418;
     background-size: cover;
     background-position: center;
 
     padding-top: 80px;
-}
-
-.banner {
-    width: 900px;
-    height: 200px;
-
 
     margin: auto;
-
 }
 
-.titulo-main {
-    text-align: center;
-    text-shadow: 1px 2px 3px #592418;
+.produto-card {
+    width: 800px;
 
-    font-family: Damion;
-    font-size: 7.5rem;
-    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
-    color: black;
+    margin: auto;
+    margin-bottom: 50px;
 
-    margin-bottom: 60px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+    padding: 20px;
+
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.507);
 }
-.banner h2 {
-    text-align: center;
-
-    font-size: 2.5rem;
-
-    font-family: Damion;
-
-    text-shadow: 1px 2px 3px #592418;
-}
-.banner p {
-    text-align: center;
-    text-shadow: 1px 1px 2px black;
-
-    font-size: 2.5rem;
-
-    font-family: Damion;
-
-    color: blanchedalmond;
-
+.produto-card img {
+    width: 500px;
 }
 
